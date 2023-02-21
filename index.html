@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nassma_Dev</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script
+            src="https://kit.fontawesome.com/eef97fa8d2.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./finalproject.js"></script>
+    </head>
+    <body>
+        <section id="landing">
+            <div class="landing__container">
+                <div class="row">
+                    <nav>
+                        <div class="nav__bar">
+                            <figure class="logo__wrapper">
+                                <img
+                                    src="./assets/react-240.jpg"
+                                    alt="Page Logo"
+                                    class="logo"
+                                />
+
+                                <span class="brand__hover--effect"
+                                    >Nassma_Dev</span
+                                >
+                            </figure>
+
+                            <div class="nav__links--wrapper">
+                                <ul class="nav__links">
+                                    <li>
+                                        <a
+                                            href="#"
+                                            class="nav__link link__hover--effect no-cursor"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="#"
+                                            class="nav__link link__hover--effect no-cursor"
+                                            >Blog</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="#"
+                                            class="nav__link link__hover--effect no-cursor"
+                                            >Pricing</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="#"
+                                            class="nav__link link__hover--effect no-cursor"
+                                            >Contact Us</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="#"
+                                            class="nav__link link__hover--effect no-cursor"
+                                            >Login</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="#"
+                                            class="nav__link nav__link--primary no-cursor"
+                                            >Sign Up</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Menu backdrop -->
+
+                            <button
+                                class="btn__menu signature__color"
+                                onclick="MenuOpen()"
+                            >
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <div class="menu__backdrop">
+                                <button
+                                    class="btn__menu signature__color btn__menu--close"
+                                    onclick="MenuClose()"
+                                >
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <ul class="menu__links">
+                                    <li class="menu__list">
+                                        <a href="" class="menu__link no-cursor"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li class="menu__list">
+                                        <a href="" class="menu__link no-cursor"
+                                            >Blog</a
+                                        >
+                                    </li>
+                                    <li class="menu__list">
+                                        <a href="" class="menu__link no-cursor"
+                                            >Pricing</a
+                                        >
+                                    </li>
+                                    <li class="menu__list">
+                                        <a href="" class="menu__link no-cursor"
+                                            >Contact Us</a
+                                        >
+                                    </li>
+                                    <li class="menu__list">
+                                        <a href="" class="menu__link no-cursor"
+                                            >Login</a
+                                        >
+                                    </li>
+                                    <li class="menu__list">
+                                        <a
+                                            href=""
+                                            class="nav__link--primary no-cursor"
+                                            >Sign Up</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Menu backdrop end -->
+                        </div>
+                    </nav>
+
+                    <header>
+                        <div class="container">
+                            <div class="row">
+                                <!-- <div class="row row__column"> -->
+                                <div class="section__description--wrapper">
+                                    <div class="section__description">
+                                        <h1 class="section__title">
+                                            Design That Suits You Now With A
+                                            <span class="signature__color"
+                                                >Special Offer!</span
+                                            >
+                                        </h1>
+                                        <p class="section__para">
+                                            Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                        </p>
+
+                                        <div class="section__form">
+                                            <input
+                                                class="form"
+                                                type="text"
+                                                placeholder="Your E-mail Address"
+                                                id="email"
+                                            />
+
+                                            <button class="form__btn no-cursor">
+                                                Get Started
+                                            </button>
+                                        </div>
+
+                                        <div class="trusted__para">
+                                            <p class="para">
+                                                OUR TRUSTED CUSTOMERS
+                                            </p>
+                                            <img
+                                                src="./assets/customers-logo-strip.png"
+                                                alt=""
+                                                class="section__description--img"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <figure class="section__img">
+                                        <img
+                                            src="./assets/undraw_address.svg"
+                                            alt=""
+                                            class="img__large"
+                                        />
+                                    </figure>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <section id="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="features__header--wrapper">
+                            <h3 class="section__title--small">FEATURES</h3>
+                            <br />
+                            <h2 class="section__title--heading">
+                                We have Amazing
+                                <span class="signature__color">Service.</span>
+                            </h2>
+                            <p class="section__title--para">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.<br />
+                                Facilis, amet inventore exercitationem quis iure
+                                est architecto, molestiae.
+                            </p>
+                        </div>
+
+                        <div class="section__special">
+                            <div class="special">
+                                <figure class="special__icon">
+                                    <img
+                                        src="./assets/shield-icon.svg"
+                                        alt="Shield Icon"
+                                        class="icon"
+                                    />
+                                </figure>
+                                <div class="special__box">
+                                    <span class="special__title"> Secure </span>
+                                    <p class="special__para">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <figure class="special__icon">
+                                    <img
+                                        src="./assets/support-icon.svg"
+                                        class="icon"
+                                    />
+                                </figure>
+                                <div class="special__box">
+                                    <span class="special__title">
+                                        24/7 Support
+                                    </span>
+                                    <p class="special__para">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <figure class="special__icon">
+                                    <img
+                                        src="./assets/customize-icon.svg"
+                                        class="icon"
+                                    />
+                                </figure>
+                                <div class="special__box">
+                                    <span class="special__title">
+                                        Customizable
+                                    </span>
+                                    <p class="special__para">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="special">
+                                <figure class="special__icon">
+                                    <img
+                                        src="./assets/reliable-icon.svg"
+                                        class="icon"
+                                    />
+                                </figure>
+                                <div class="special__box">
+                                    <span class="special__title">
+                                        Reliable
+                                    </span>
+                                    <p class="special__para">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <figure class="special__icon">
+                                    <img src="./assets/fast.svg" class="icon" />
+                                </figure>
+                                <div class="special__box">
+                                    <span class="special__title"> Fast </span>
+                                    <p class="special__para">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <figure class="special__icon">
+                                    <img
+                                        src="./assets/simple-icon.svg"
+                                        class="icon"
+                                    />
+                                </figure>
+                                <div class="special__box">
+                                    <span class="special__title"> Easy </span>
+                                    <p class="special__para">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="quality">
+                <div class="container">
+                    <div class="row fifty__fifty">
+                        <div class="component__wrapper">
+                            <div class="component">
+                                <h3 class="section__title--small">
+                                    QUALITY WORK
+                                </h3>
+                                <h2 class="section__title--heading">
+                                    Designed & Developed by
+                                    <span class="signature__color"
+                                        >Professionals.</span
+                                    >
+                                </h2>
+                                <p class="section__title--para para__scaled">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Possimus voluptatem itaque
+                                    ab nihil, id maxime officia! Dicta veritatis
+                                    omnis, dolores aliquam voluptatibus eligendi
+                                    ab hic exercitationem magnam, totam soluta
+                                    qui.
+                                </p>
+                                <button class="signature__btn no-cursor">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                        <figure class="figure__img--fifty">
+                            <img
+                                src="./assets/nassma_dev_page.png"
+                                alt="Nassma Logo"
+                                class="figure__img"
+                            />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section id="steps">
+                <div class="container">
+                    <div class="row fifty__fifty">
+                        <figure class="figure__img--fifty steps__figure">
+                            <img
+                                src="./assets/Nassma_Dev_Laptop (2).jpg"
+                                alt="Nassma Laptop"
+                                class="figure__img"
+                            />
+                        </figure>
+                        <div class="component__wrapper">
+                            <div class="component">
+                                <h3 class="section__title--small">STEPS</h3>
+                                <h2 class="section__title--heading">
+                                    Easy to
+                                    <span class="signature__color"
+                                        >Get Started</span
+                                    >
+                                </h2>
+
+                                <ul class="steps__list">
+                                    <li class="steps__list--item">
+                                        <div class="item__number">01</div>
+                                        <div class="item__number--info">
+                                            <h6 class="steps__heading">
+                                                Register
+                                            </h6>
+                                            <p class="steps__para">
+                                                Create an account with us using
+                                                Google or Facebook.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="steps__list--item">
+                                        <div class="item__number">02</div>
+                                        <div class="item__number--info">
+                                            <h6 class="steps__heading">
+                                                Download
+                                            </h6>
+                                            <p class="steps__para">
+                                                Browse and Download the template
+                                                that you like from the
+                                                marketplace.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="steps__list--item">
+                                        <div class="item__number">03</div>
+                                        <div class="item__number--info">
+                                            <h6 class="steps__heading">Run</h6>
+                                            <p class="steps__para">
+                                                Follow the instructions to setup
+                                                and customize the template to
+                                                your needs.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="values">
+                <div class="container">
+                    <div class="row fifty__fifty">
+                        <div class="component__wrapper">
+                            <div class="component">
+                                <h3 class="section__title--small">VALUES</h3>
+                                <h2 class="section__title--heading">
+                                    We Always Abide by Our
+                                    <span class="signature__color"
+                                        >Principles.</span
+                                    >
+                                </h2>
+                                <p class="section__title--para para__scaled">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Possimus voluptatem itaque
+                                    ab nihil, id maxime officia! Dicta veritatis
+                                    omnis, dolores aliquam voluptatibus eligendi
+                                    ab hic exercitationem magnam, totam soluta
+                                    qui.
+                                </p>
+                                <div class="values__extra">
+                                    <div class="extra__info">
+                                        <div class="extra__info--header">
+                                            <img
+                                                src="./assets/affordable-icon.PNG"
+                                                alt=""
+                                                class="extra__img"
+                                            />
+                                            <span class="extra__header"
+                                                >Affordable</span
+                                            >
+                                        </div>
+                                        <div class="extra__info--para">
+                                            <p>
+                                                Lorem ipsum dolor, sit amet
+                                                consectetur consequuntur maxime
+                                                laboriosam officia, est maiores?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="extra__info">
+                                        <div class="extra__info--header">
+                                            <img
+                                                src="./assets/pro.PNG"
+                                                alt=""
+                                                class="extra__img"
+                                            />
+                                            <span class="extra__header"
+                                                >Professionalism</span
+                                            >
+                                        </div>
+                                        <div class="extra__info--para">
+                                            <p>
+                                                Lorem ipsum dolor, sit amet
+                                                consectetur consequuntur maxime
+                                                laboriosam officia, est maiores?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button
+                                    class="values__btn signature__btn no-cursor"
+                                >
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                        <figure class="figure__img--fifty">
+                            <img
+                                src="./assets/prototype-illustration.svg"
+                                alt="Illustration"
+                                class="figure__img"
+                            />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pricing">
+                <div class="container">
+                    <div class="row">
+                        <div class="features__header--wrapper">
+                            <h3 class="section__title--small">PRICING</h3>
+                            <br />
+                            <h2 class="section__title--heading">
+                                Reasonable & Flexible
+                                <span class="signature__color">Plans.</span>
+                            </h2>
+                            <p class="section__title--para">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.<br />
+                                Facilis, amet inventore exercitationem quis iure
+                                est architecto, molestiae.
+                            </p>
+                        </div>
+
+                        <div class="section__plans">
+                            <div class="plan plan__burgandy">
+                                <h3 class="plan__title">PERSONAL</h3>
+                                <span class="plan__price">$17.99</span>
+                                <span class="plan__monthly">MONTHLY</span>
+                                <span class="plan__divider"></span>
+
+                                <h3 class="plan__subtitle">For Individuals</h3>
+                                <p class="plan__para">30 Templates</p>
+                                <p class="plan__para">7 Landing Pages</p>
+                                <p class="plan__para">12 Internal Pages</p>
+                                <p class="plan__para">Basic Assistance</p>
+                                <span class="plan__divider"></span>
+                                <button
+                                    class="plan__btn bg__light--gradient no-cursor"
+                                >
+                                    BUY NOW
+                                </button>
+                            </div>
+                            <div class="plan light__blue">
+                                <h3 class="plan__title">BUSINESS</h3>
+                                <span class="plan__price">$37.99</span>
+                                <span class="plan__monthly">MONTHLY</span>
+                                <span class="plan__divider"></span>
+
+                                <h3 class="plan__subtitle">
+                                    For Small Businesses
+                                </h3>
+                                <p class="plan__para">60 Templates</p>
+                                <p class="plan__para">15 Landing Pages</p>
+                                <p class="plan__para">22 Internal Pages</p>
+                                <p class="plan__para">Priority Assistance</p>
+                                <span class="plan__divider"></span>
+                                <button
+                                    class="plan__btn bg__white--btn no-cursor"
+                                >
+                                    BUY NOW
+                                </button>
+                            </div>
+                            <div class="plan light__orange">
+                                <h3 class="plan__title">ENTERPRISE</h3>
+                                <span class="plan__price">$57.99</span>
+                                <span class="plan__monthly">MONTHLY</span>
+                                <span class="plan__divider"></span>
+
+                                <h3 class="plan__subtitle">
+                                    For Large Companies
+                                </h3>
+                                <p class="plan__para">90 Templates</p>
+                                <p class="plan__para">27 Landing Pages</p>
+                                <p class="plan__para">37 Internal Pages</p>
+                                <p class="plan__para">Personal Assistance</p>
+                                <span class="plan__divider"></span>
+                                <button
+                                    class="plan__btn bg__orange--btn no-cursor"
+                                >
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faqs">
+                <div class="container">
+                    <div class="row">
+                        <div class="card">
+                            <h2 class="card__header">
+                                Developers all over the world<br />
+                                are happily using Nassma.
+                            </h2>
+                            <button class="generic__btn get__started no-cursor">
+                                Get Started</button
+                            ><button class="generic__btn contact__us no-cursor">
+                                Contact Us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer__links">
+                        <ul class="footer__link--wrapper">
+                            <li class="footer__link--list">
+                                <h3 class="footer__link--header">MAIN</h3>
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >FAQs</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Support</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >About Us</a
+                                >
+                            </li>
+                        </ul>
+
+                        <ul class="footer__link--wrapper">
+                            <li class="footer__link--list">
+                                <h3 class="footer__link--header">PRODUCT</h3>
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Log In</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Personal</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Business</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Team</a
+                                >
+                            </li>
+                        </ul>
+
+                        <ul class="footer__link--wrapper">
+                            <li class="footer__link--list">
+                                <h3 class="footer__link--header">PRESS</h3>
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Logos</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Events</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Stories</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Office</a
+                                >
+                            </li>
+                        </ul>
+
+                        <ul class="footer__link--wrapper">
+                            <li class="footer__link--list">
+                                <h3 class="footer__link--header">Team</h3>
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Career</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Founders</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Culture</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Onboarding</a
+                                >
+                            </li>
+                        </ul>
+
+                        <ul class="footer__link--wrapper">
+                            <li class="footer__link--list">
+                                <h3 class="footer__link--header">LEGAL</h3>
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >GDPR</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Privacy Policy</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Terms of Service</a
+                                >
+                            </li>
+                            <li class="footer__link--list">
+                                <a
+                                    href=""
+                                    class="footer__link link__hover--effect no-cursor"
+                                    >Disclaimer</a
+                                >
+                            </li>
+                        </ul>
+                        <span class="footer__divider"></span>
+
+                        <div class="footer__outro">
+                            <figure class="logo__wrapper">
+                                <img
+                                    src="./assets/react-240.jpg"
+                                    alt="Page Logo"
+                                    class="logo"
+                                />
+
+                                <span class="brand__hover--effect"
+                                    >Nassma_Dev</span
+                                >
+                            </figure>
+
+                            <div class="footer__copyright">
+                                <p class="copyright">
+                                    &copy; 2023 Nassma Inc. All Rights Reserved.
+                                </p>
+                            </div>
+
+                            <div class="footer__social">
+                                <a href="#" class="social__link no-cursor"
+                                    ><i class="fa-brands fa-facebook-f"></i></a
+                                ><a href="#" class="social__link no-cursor"
+                                    ><i class="fa square fa-twitter"></i></a
+                                ><a href="#" class="social__link no-cursor"
+                                    ><i class="fa square fa-youtube"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
